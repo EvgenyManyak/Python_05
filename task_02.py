@@ -22,7 +22,7 @@ def p_print(name, k, counter, value):
 player1 = input("Введите имя первого игрока: ")
 player2 = input("Введите имя второго игрока: ")
 value = int(input("Введите количество конфет на столе: "))
-flag = randint(0,2) # флаг очередности
+flag = randint(0,2)
 if flag:
     print(f"Первый ходит {player1}")
 else:
